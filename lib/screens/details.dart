@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'fullrecipe.dart';
 import 'homeScreen.dart';
 
@@ -14,7 +13,6 @@ class DetailsScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
-          // mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             SizedBox(
               height: MediaQuery.of(context).size.height * 0.4,
